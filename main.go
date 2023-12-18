@@ -79,7 +79,7 @@ func getVarience(nums []float64) float64 {
 		diffNAndAverage := n - avg
 		temp += diffNAndAverage * diffNAndAverage
 	}
-	varience := temp / float64((len(nums) - 1))
+	varience := temp / float64(len(nums))
 
 	return varience
 }
